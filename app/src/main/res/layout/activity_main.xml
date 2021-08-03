@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+    <ImageView
+            android:background="@drawable/bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+    />
+
+
+    <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="391dp"
+            android:layout_height="413dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/bb"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="12dp"
+            android:alpha="0"
+            android:onClick="drop"
+            android:tag="0"
+            app:layout_constraintStart_toStartOf="@id/imageView1"
+            app:layout_constraintTop_toTopOf="@id/imageView1"
+            app:srcCompat="@drawable/el4" />
+
+    <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="12dp"
+            android:alpha="0"
+            android:onClick="drop"
+            android:tag="1"
+            app:layout_constraintStart_toStartOf="@id/imageView1"
+            app:layout_constraintTop_toTopOf="@id/imageView1"
+            app:srcCompat="@drawable/el4" />
+
+    <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="276dp"
+            android:layout_marginLeft="276dp"
+            android:layout_marginTop="12dp"
+            android:alpha="0"
+            android:onClick="drop"
+            android:tag="2"
+            app:layout_constraintStart_toStartOf="@id/imageView1"
+            app:layout_constraintTop_toTopOf="@id/imageView1"
+            app:srcCompat="@drawable/el4" />
+
+    <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="152dp"
+            android:alpha="0"
+            android:onClick="drop"
+            android:tag="3"
+            app:layout_constraintStart_toStartOf="@id/imageView1"
+            app:layout_constraintTop_toTopOf="@id/imageView1"
+            app:srcCompat="@drawable/el4" />
+
+    <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="140dp"
+            android:alpha="0"
+            android:onClick="drop"
+            android:tag="4"
+            app:layout_constraintStart_toStartOf="@id/imageView1"
+            app:layout_constraintTop_toTopOf="@id/imageView1"
+            app:srcCompat="@drawable/el4" />
+
+    <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="268dp"
+            android:layout_marginLeft="268dp"
+            android:layout_marginTop="152dp"
+            android:alpha="0"
+            android:onClick="drop"
+            android:tag="5"
+            app:layout_constraintStart_toStartOf="@id/imageView1"
+            app:layout_constraintTop_toTopOf="@id/imageView1"
+            app:srcCompat="@drawable/el4" />
+
+    <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="288dp"
+            android:alpha="0"
+            android:onClick="drop"
+            android:tag="6"
+            app:layout_constraintStart_toStartOf="@id/imageView1"
+            app:layout_constraintTop_toTopOf="@id/imageView1"
+            app:srcCompat="@drawable/el4" />
+
+    <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="288dp"
+            android:alpha="0"
+            android:onClick="drop"
+            android:tag="7"
+            app:layout_constraintStart_toStartOf="@id/imageView1"
+            app:layout_constraintTop_toTopOf="@id/imageView1"
+            app:srcCompat="@drawable/el4" />
+
+    <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="268dp"
+            android:layout_marginLeft="268dp"
+            android:layout_marginTop="288dp"
+            android:alpha="0"
+            android:onClick="drop"
+            android:tag="8"
+            app:layout_constraintStart_toStartOf="@id/imageView1"
+            app:layout_constraintTop_toTopOf="@id/imageView1"
+            app:srcCompat="@drawable/el4" />
+
+    <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="195dp"
+            android:layout_height="207dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginRight="19dp"
+            android:layout_marginBottom="17dp"
+            android:background="@drawable/button"
+            android:orientation="vertical"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/imageView9"
+            app:layout_constraintEnd_toStartOf="@+id/imageView10"
+            app:layout_constraintHorizontal_bias="0.352"
+            app:layout_constraintStart_toEndOf="@+id/imageView5"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:layout_constraintVertical_bias="0.442">
+
+        <TextView
+                android:id="@+id/tf"
+                android:layout_width="match_parent"
+                android:layout_height="67dp"
+                android:text="TextView"
+                android:textSize="25sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="104dp"
+                android:background="@drawable/button"
+                android:onClick="btnGoToMenu"
+                android:text="Menu"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
